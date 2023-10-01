@@ -17,7 +17,7 @@ type digiAPI struct {
 	} `json:"pageable"`
 }
 
-type digimon struct {
+type DigimonStruct struct {
 	ID        int    `json:"id"`
 	Name      string `json:"name"`
 	XAntibody bool   `json:"xAntibody"`
